@@ -1,6 +1,6 @@
 {
     "name": "findahaiku",
-    "version": "0.0.0",
+    "version": "1.1.2",
     "description": "Split up text into the lines of a haiku",
     "license": "CC0-1.0",
     "repository": "muhashi/findahaiku",
