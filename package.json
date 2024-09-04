@@ -1,0 +1,50 @@
+{
+    "name": "findahaiku",
+    "version": "0.0.0",
+    "description": "Split up text into the lines of a haiku",
+    "license": "CC0-1.0",
+    "repository": "muhashi/findahaiku",
+    "author": {
+        "name": "muhashi",
+        "email": "muhamedoes+muhashi@gmail.com",
+        "url": "https://muhashi.com"
+    },
+    "type": "module",
+    "exports": {
+        "types": "./index.d.ts",
+        "default": "./index.js"
+    },
+    "sideEffects": false,
+    "engines": {
+        "node": ">=18"
+    },
+    "scripts": {
+        "test": "ava && tsc index.d.ts"
+    },
+    "files": [
+        "index.js",
+        "index.d.ts"
+    ],
+    "keywords": [
+        "haikus",
+        "haiku",
+        "detect",
+        "detector",
+        "detection",
+        "find",
+        "look",
+        "for",
+        "poetry",
+        "poem",
+        "format",
+        "dictionary"
+    ],
+    "devDependencies": {
+        "ava": "^6.1.3",
+        "typescript": "^5.5.4"
+    },
+    "dependencies": {
+        "extractwords": "^2.0.0",
+        "syllables": "^2.1.0"
+    }
+}
